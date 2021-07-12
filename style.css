@@ -1,0 +1,242 @@
+/* paramètres pour tout le site */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* layout header */
+header.header{
+    height: 400px;
+    background-image: url("image/norvege.jpg");
+    background-position: center;
+    width: 100%;
+}
+
+ul.menu_1{
+    list-style-type: none;
+    background-color: rgba(153, 147, 129, 0.822);
+    border: 3px solid;
+    overflow: hidden;   
+}
+
+ul.menu_1 li{
+    float: left;
+    width: 24.9%;
+    border-right: 1px solid white;
+   
+    
+}
+ul.menu_1 li:last-child{
+    border-right: 0px;
+}
+ul.menu_1 li:hover{
+    background-color: rgba(116, 113, 106, 0.822);
+}
+
+/* Mettre le menu en horizontal*/
+ul.menu_1 li a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
+header img.pp{
+    width: 200px;
+    margin: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: -420px;
+}
+
+
+/* layout corps */
+.block_nom{
+    float: left;
+    height: 100px;
+    width: 100%;
+    background-color:rgba(153, 147, 129,0.6);    
+}
+.block_nom img.logo{
+    width: 75px;
+    height: 75px;
+    float: right;
+    margin-right: 20px;
+    padding-top: 12px;
+}
+
+.nom
+{
+    text-align: center;
+    font-size: 45px;  
+    float: left;
+    padding-left: 360px;
+    padding-top: 20px;
+
+}
+.block_nom img.logo2{
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 4px;
+}
+.whatsapp{
+    float: right;
+    width: 300px;
+    height: 85px;
+    background-color: rgb(73, 73, 73,0.5);
+    margin-top: 6px;
+    border-radius: 8px;
+    margin-right: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+}
+/* layout corps */
+
+.corps{
+    background-color:  rgb(212, 210, 204);
+    width: 100%;
+    height: 100%;
+    float: left; 
+}
+
+/* layout éducation */
+
+.bandeau_titre{
+    float: left;
+    height: 80px;
+    width: 100%;
+    background-color:rgba(153, 147, 129,0.6);
+    text-align: center;
+    font-size: 45px;  
+    font-weight: bold;
+    padding-top: 20px;
+}
+/* layout Expérience */
+
+.accenture{
+    width: 100%;
+    height: 100%;
+}
+.gauche{
+    height: 100%;
+    float: left;
+}
+.gauche img{
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    margin-left: 10em;
+    margin-top: 100px;
+    border-radius: 75px;
+    background-color: rgba(153, 147, 129, 0.2);
+}
+.droite{
+    height: 100%;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.titre_acn{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.date{
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+
+
+
+/* layout intérêts */
+
+.menu_hamburger{
+    width: 40px;
+    max-height: 40px;
+    position: absolute; 
+
+}
+.titre_block{
+    color: rgb(87, 116, 129);
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+.block_1{
+    
+    float: left;
+    margin: 25px;
+    margin-top: 0px;
+    padding: 25px;
+    padding-right: 50px;
+    border-radius: 3px;
+}
+
+.photo_block_1{
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 300px;
+    max-width: 300px;
+    float: right;
+    margin: 5px;
+    border-radius: 13px;
+}
+.block_2{
+    border-top: 3px solid rgb(48, 66, 52);
+    padding-top: 30px;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 3px;
+    float: right;
+}
+
+.photo_block_2{
+    height: 100px;
+    width: 100px;
+    border-radius: 13px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.img_progra{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.bandeau_cadre{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.cadre{
+    width: 20%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:1.5%  
+      
+}
+.cadre h1{
+    text-align: center;
+}
+.cadre img{
+    height: 100px;
+    border-radius: 50px;
+    align-items: center;
+}
