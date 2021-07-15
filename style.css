@@ -99,12 +99,29 @@ header img.pp{
     text-decoration: none;
     color: rgb(41, 39, 39);
 }
-
 .formulaire{
     border: 3px solid black;
+    border-radius: 10px;
     margin: 20px;
     margin-top: 10px;
 }
+.download{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 150px;
+}
+.text_download{
+    float: left;
+    font-size: large;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.download img{
+    max-width: 100px;
+    margin: 30px;
+}
+
 
 /* layout corps */
 
@@ -113,6 +130,7 @@ header img.pp{
     width: 100%;
     height: 100%;
     float: left; 
+    margin: 0 auto;
 }
 .corps p{
     margin: 20px;
@@ -121,7 +139,7 @@ header img.pp{
     text-align: justify;
 }
 .corps h1{
-    margin-left: 50px;
+    margin-left: 50px
 }
 
 /* layout éducation */
