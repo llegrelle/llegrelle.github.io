@@ -107,8 +107,9 @@ header img.pp{
 }
 .download{
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
     border: 2px solid black;
+    border-radius: 75px;
     height: 150px;
 }
 .text_download{
@@ -154,39 +155,66 @@ header img.pp{
     font-weight: bold;
     padding-top: 20px;
 }
+.bandeau_educ{
+    width: 100%;
+    height: auto;
+    background: rgb(212,210,204);
+    background: linear-gradient(0deg, rgba(153,147,129,100) 0.6%,rgba(212,210,204,100) 0.6% 100%);
+    display: flex;
+    justify-content: center;
+}
+.block_educ{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 30px;
+    width: 25%;
+}
+.block_educ img{
+    width: 200px;
+    height: 150px;
+    padding: 20px 0;
+}
+.block_educ p{
+    font-size: 20px;
+}
 /* layout Expérience */
 
 .accenture{
     width: 100%;
     height: 100%;
+    display: inline-flex;
+    justify-content: left;
 }
 .gauche{
     height: 100%;
-    float: left;
+    width: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+
 }
 .gauche img{
     width: 150px;
     height: 150px;
-    margin-right: 40px;
-    margin-left: 10em;
-    margin-top: 100px;
     border-radius: 75px;
     background-color: rgba(153, 147, 129, 0.2);
 }
 .droite{
     height: 100%;
-    margin-left: 20px;
+    width: 75%;
     padding-right: 20px;
+
 }
 .titre_acn{
     font-size: 40px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .date{
     font-size: 25px;
     font-weight: normal;
-    margin-left: 20px;
 }
 
 
@@ -237,42 +265,23 @@ header img.pp{
 }
 
 .photo_block_2{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 13px;
-    float: left;
-    margin-top: 20px;
     margin-left: 15px;
 }
 
 .img_progra{
-    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
-.bandeau_cadre{
-    width: 100%;
-    height: auto;
-    float: left;
-}
-.cadre{
-    width: 20%;
-    height: auto;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin:1.5%  
-      
-}
 .cadre h1{
     text-align: center;
 }
 .cadre img{
     height: 100px;
     border-radius: 50px;
-    align-items: center;
 }
 
 .pied_page{
